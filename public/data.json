@@ -1,0 +1,38 @@
+[
+  {
+    "id": "62377d4716cc7535256f8786",
+    "price": 41,
+    "eyeColor": "blue",
+    "name": "Sharpe sujon"
+  },
+  {
+    "id": "62377d4732330698b196a547",
+    "price": 94,
+    "eyeColor": "green",
+    "name": "Celia Carrillo"
+  },
+  {
+    "id": "62377d47d6379f8b82343afc",
+    "price": 174,
+    "eyeColor": "green",
+    "name": "Fowler Odom"
+  },
+  {
+    "id": "62377d470f2d03dfe0fae902",
+    "price": 493,
+    "eyeColor": "brown",
+    "name": "Frost Mendez"
+  },
+  {
+    "id": "62377d47e750c1b908658012",
+    "price": 317,
+    "eyeColor": "brown",
+    "name": "Holder Hubbard"
+  },
+  {
+    "id": "62377d47bf6bc40bc538c2ea",
+    "price": 296,
+    "eyeColor": "green",
+    "name": "Joyce Palmer"
+  }
+]
