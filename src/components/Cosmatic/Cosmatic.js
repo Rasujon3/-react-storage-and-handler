@@ -1,4 +1,5 @@
 import React from "react";
+import { addToDb } from "../utilities/fakedb";
 import "./Cosmatic.css";
 
 const Cosmatic = (props) => {
@@ -6,12 +7,9 @@ const Cosmatic = (props) => {
   const { name, price, id } = props.cosmatic;
 
   const addToCart = (id) => {
-    console.log("item added", id);
+    addToDb(id);
   };
 
-  const addtoCartWithParam = () => {
-    addToCart(id);
-  };
   return (
     <div className="product">
       <h2>Buy this: {name}</h2>
@@ -19,8 +17,7 @@ const Cosmatic = (props) => {
       <p>
         <small>it ha id : {id}</small>
       </p>
-      <button onClick={addtoCartWithParam}>Add to Cart</button>
-      <button onClick={() => addToCart(id)}>Add to Cart: shortcut</button>
+      <button onClick={() => addToCart(id)}>Add to Cart</button>
     </div>
   );
 };
